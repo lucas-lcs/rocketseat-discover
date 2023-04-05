@@ -5,7 +5,7 @@
 
 ## Olá, esse projeto é para compartilhar e guardar aprendizados adquiridos com esse curso maravilhoso.
 
-### Deixo abaixo uns exemplos das coisas legais que fizemos.
+### Deixo abaixo alguns exemplos das coisas legais que fizemos.
 
 - *Eventos no click*
 <p aling="center">
