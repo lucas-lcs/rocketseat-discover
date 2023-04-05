@@ -9,31 +9,31 @@
 
 - *Eventos no click*
 <p aling="center">
-<img width="400" height="200" src="https://user-images.githubusercontent.com/121250838/230162736-db768fa8-fac5-465e-a242-11da8b0a4b24.gif">
+<img width="800" height="800" src="https://user-images.githubusercontent.com/121250838/230162736-db768fa8-fac5-465e-a242-11da8b0a4b24.gif">
 </p>
 
 - *Construindo tabelas*
 <p aling="center">
-<img width="400" height="200" src="https://user-images.githubusercontent.com/121250838/230164668-14de9084-6b43-4053-b52e-620b870cbe04.png">
+<img width="800" height="500" src="https://user-images.githubusercontent.com/121250838/230164668-14de9084-6b43-4053-b52e-620b870cbe04.png">
 </p>
 
 - *Entendendo o css*
 <p aling="center">
-<img width="400" height="200" src="https://user-images.githubusercontent.com/121250838/230164944-2e367203-2f86-44a2-85bc-ffefd555383e.png">
+<img width="800" height="500" src="https://user-images.githubusercontent.com/121250838/230164944-2e367203-2f86-44a2-85bc-ffefd555383e.png">
 </p>
 
 - *Flexbox* 
 
 <p aling="center">
-<img width="400" height="200" src="https://user-images.githubusercontent.com/121250838/230166020-c118b818-e675-416f-8abb-c70904f7ab03.gif">
+<img width="800" height="500" src="https://user-images.githubusercontent.com/121250838/230166020-c118b818-e675-416f-8abb-c70904f7ab03.gif">
 </p>
 
 <p aling="center">
-<img width="400" height="200" src="https://user-images.githubusercontent.com/121250838/230167488-267a8956-4ae9-4398-8a90-aec8079fd082.gif">
+<img width="800" height="500" src="https://user-images.githubusercontent.com/121250838/230167488-267a8956-4ae9-4398-8a90-aec8079fd082.gif">
 </p>
 
 <p aling="center">
-<img width="400" height="200" src="https://user-images.githubusercontent.com/121250838/230168847-94ddad12-7931-4af9-a3c9-f6c1bd54bd3c.gif">
+<img width="800" height="500" src="https://user-images.githubusercontent.com/121250838/230168847-94ddad12-7931-4af9-a3c9-f6c1bd54bd3c.gif">
 </p>
 
 
