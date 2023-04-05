@@ -1,4 +1,4 @@
-# rochetseat-dicover
+# rochetseat-discover
 
 ![Captura de tela de 2023-04-05 14-01-16](https://user-images.githubusercontent.com/121250838/230152223-e33ff461-f4a7-4671-8f16-3b2f3a9f6cae.png)
 [discover-fundamentar-certificate.pdf](https://github.com/lucas-lcs/rocketseat-discover/files/11161248/discover-fundamentar-certificate.pdf)
