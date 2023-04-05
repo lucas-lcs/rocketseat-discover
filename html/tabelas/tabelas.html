@@ -1,0 +1,108 @@
+<!--
+    <table>
+
+        Prós
+        - Visualização de dados via linhas e coluna 
+        - Boa acessibilidade para leitura dos dados 
+
+        Contras 
+        - Pouco flexivel 
+        - Precisa de estilização para melhor visualização 
+
+        Não usar 
+        - Para criar layout
+-->
+
+<table>
+
+    <caption>Pessoas por Idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <Tbody>
+        <tr>
+            <td>Lucas </td>
+            <td>28 ANOS</td>
+        </tr>
+        <tr>
+            <td>Henrique</td>
+            <td>24 anos</td>
+        </tr>
+    </Tbody>
+
+    <TFoot>
+        <tr>
+            <td>Total</td>
+            <td>2 Pessoas</td>
+        </tr>
+
+    </TFoot>
+</table>
+
+<!--
+Tabela complexa 
+
+2 lojas 
+    Quantos produtos foram produzidos, quantos
+    vendidos e agrupados por nome dos produtos  
+-->
+
+<br>
+<br>
+<br>
+<table>
+
+    <caption>Produzidos x Vendidos por loja</caption>
+
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red;">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+
+
+
+    <thead>
+    <tr>
+            <th rowspan="2"></th>
+            <th colspan="2"  scope="colgroup">Afonso Pereira</th>
+            <th colspan="2"  scope="colgroup">Antonio Pereira</th>
+    </tr>
+
+    <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+    </tr>
+
+</thead>
+
+<tbody>
+
+    <tr>
+        <th scope="row">Vasoura</th>
+        <td>50</td>
+        <td>30</td>
+        <td>20</td>
+        <td>20</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Baldes</th>
+        <td>10</td>
+        <td>10</td>
+        <td>30</td>
+        <td>25</td>
+    </tr>
+
+
+</tbody>
+
+
+</table>

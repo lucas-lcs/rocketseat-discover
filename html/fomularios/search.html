@@ -1,0 +1,73 @@
+<!--
+    <input type="search"/>
+
+    - para campos de busca 
+    - é igual ao campo do tipo 'text' mas poderá ser um pouco diferente dependendo do user agent
+
+
+    Atributos 
+
+    - list / <datalist>
+    - pattern
+    - arial-label
+-->
+
+
+
+<label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q">
+
+<button>Search</button>
+<br>
+<br>
+
+<datalist id="searchterms">
+    <option value="mac">Mac</option>
+    <option value="linux">Linux</option>
+    <option value="win">Windows</option>
+</datalist>
+
+<label for="searchterms">Qual seu SO: </label>
+
+
+<form>
+    <input type="search" name="q" list="searchterms">
+    <button>Pesquisa</button>
+</form>
+
+<!--
+
+Quando não temos o label precisamos colocar o ariel-label para ajudar na acessibilidade
+
+  <input type="search" name="q" placeholder="Digite seu termo de busca"
+  size="29"
+  ariel-label="campo de pesquisa"
+  >
+
+-->
+
+<br>
+
+<form action=""></form>
+<input type="search" name="q" placeholder="Digite seu termo de busca"
+size="29"
+ariel-label="campo de pesquisa: Digite seu termo de busca">
+<button>pesquisa</button>
+
+</form>
+
+<!--
+    Patterns
+-->
+
+<br>
+
+<form action=""></form>
+<input type="search" name="id"
+size="5"
+pattern="[0-9]{2}"
+title="Digite o número di id: 99"
+>
+<button>pesquisa</button>
+
+</form>

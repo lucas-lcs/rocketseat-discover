@@ -1,0 +1,139 @@
+<!--
+    <input type="email"/>
+
+    - espera que o usuário digite o e-mail
+    - irá avaliar se o valor digitado é um e-mail 
+
+    # Atributos 
+
+    - placeholder
+    - readonly / disable
+    - value 
+
+    - require 
+
+    - multiple
+        * o campo irá receber um ou mais e-mails, separdos por vírgula
+        
+    - minlengh / maxlength
+        * o minimo e / ou máximo valor que o campo irá conter
+        
+    - size 
+        * Valor númerico indicando quantos caractere esse 
+        campo deveria conter, modificando o tamanho do campo para o usuário
+        
+    - pattern 
+        * uso da expressão regular para vaidar o campo 
+        * exemplo: O usuário só poderá colocar email do domínio rochetseat.com.br
+            * pattern=".+@recketseat\.com\.br"
+    
+    - list 
+        * o id de uma tag <datalist> irá conter uma lista de valores pré definida a fim de sugerir ao usuário, quais valores estão disponíveis
+        * os velores do <datalist> que não forem compativeis com o campo, não serão apresentados como sugestão.  
+-->
+
+
+<form action="">
+
+    <input type="email"
+    placeholder="digite seu email aqui"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+<form action="">
+
+    <input type="email"
+    readonly
+    value="lucas@alves"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<form action="">
+
+    <input type="email"
+    disabled
+    value="lucas@alves"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+<form action="">
+
+    <input type="email"
+    required
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<form action="">
+
+    <input type="email"
+    multiple
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<form action="">
+
+    <input type="email"
+    minlength="8"
+    maxlength=""
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+<form action="">
+
+    <input type="email"
+    size="8"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+<form action="">
+
+    <input type="email"
+    size="8"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+<form action="">
+
+    <input type="email"
+   pattern=".+@recketseat\.com\.br"
+   title="Somente com o e-mail da reckertseate"    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+<form action="">
+    <datalist id="emailsliste">
+        <option>lucas.alves@recketseat.vom.ve</option>
+
+    </datalist>
+
+    <input type="email"
+    list="emailsliste"
+   pattern=".+@recketseat\.com\.br"
+   title="Somente com o e-mail da reckertseate"    >
+
+    <button type="submit">Enviar</button>
+</form>
+
+

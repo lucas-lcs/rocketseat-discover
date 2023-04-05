@@ -1,0 +1,45 @@
+<!--
+
+    <input type="radio"/>
+
+    - Projetado para selecionar uma única opção de um groupo de opção
+
+    # Atributos essenciais 
+
+    - checked 
+        - indica que o campo foi marcado 
+    - value
+        valor que aquele campo contém
+-->
+
+<input type="radio"/>
+
+<fieldset>
+    <legend>Vamos tomar café?</legend>
+
+    <label for="yep"> Sim</label>
+    <input type="radio" name="coffee" id="yep">
+
+    <label for="nono">Não</label>
+    <input checked type="radio" name="coffee" id="nono" value="no">
+</fieldset>
+
+
+<fieldset>
+    <legend>Selecione a sua opção de bolo</legend>
+
+    <div>
+        <input type="radio" name="bolo" id="fuba" value="fuba">
+        <label for="fuba">Fubá</label>
+    </div>
+    <div>
+        <input type="radio" name="bolo" id="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate</label>
+    </div>
+    <div>
+        <input type="radio" name="bolo" id="tapioca" value="tapioca">
+        <label for="tapioca">Tapioca</label>
+    </div>
+
+
+</fieldset>

@@ -1,0 +1,142 @@
+<!--
+    <input type="url" />
+
+    - espera que o usuário digite uma url 
+    - irá validar se o valor digitado é uma url 
+
+    # Atributos 
+
+    - placeholder
+    - readonly / disable 
+    - value 
+
+    - required
+
+    -  - minlengh / maxlength
+        * o minimo e / ou máximo valor que o campo irá conter
+        
+    - size 
+        * Valor númerico indicando quantos caractere esse 
+        campo deveria conter, modificando o tamanho do campo para o usuário
+
+         
+    - pattern 
+        * uso da expressão regular para vaidar o campo 
+        * exemplo: O usuário só poderá colocar o domínio .com.br
+            * pattern=".*\.com\.br\/.*"
+
+    - spellcheck 
+        * habilita a verificação ortográfica para este input
+    
+
+
+
+    -->
+
+    <form action="">
+        
+        <input type="url">
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <form action="">
+        
+        <input type="url" 
+        placeholder="Digite uma url"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <form action="">
+        
+        <input type="url"
+        readonly
+        value="https://lucas.alves.com.br"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+    <form action="">
+        
+        <input type="url"
+        disabled
+        value="https://lucas.alves.com.br"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <form action="">
+        
+        <input type="url"
+        required
+        value="https://lucas.alves.com.br"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+    <form action="">
+        
+        <input type="url"
+        maxlength="10"
+        minlength="20"
+        value="https://lucas.alves.com.br"
+        >
+        <button type="submit">Enviar</button>
+ 
+    </form>
+
+    <form action="">
+        
+        <input type="url"
+        size="10"
+        value="https://lucas.alves.com.br"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <form action="">
+        
+        <input type="url"
+        pattern=".*\.com\.br.*"
+        title="Somente domínio com .com.br serão aceitos."
+        value="https://lucas.alves.com.br"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+    <form action="">
+        <datalist id="urldata">
+            <option>lucas.alves@recketseat.vom.ve</option>
+            <option>henrique.alves@recketseat.vom.ve</option>
+            <option>alves.alves@recketseat.com.br</option>
+            <option>gomes.alves@recketseat.com.br</option>
+    
+        </datalist>
+    
+        <input type="email"
+        list="urldata"
+       pattern=".+@recketseat\.com\.br"
+       title="Somente com o e-mail da reckertseate"    >
+    
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <form action="">
+        
+        <input type="url"
+        spellcheck="true"
+        >
+        <button type="submit">Enviar</button>
+
+    </form>
+    

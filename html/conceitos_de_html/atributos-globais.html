@@ -1,0 +1,40 @@
+<!--
+    Atributos mais utilizados 
+    Serva para colocar conteudos css
+    E acessar o conteúdo lá no documento javascript
+    - Class (serva para aplicar o style css e usar no java script)
+    - contenteditable (Possibilita alterar ou editar o conteudo diretamente na página)
+    - data-* (Serve para fazer coisas de logica com java script e deve ser senpre separado por "-")
+    - hidden (Serve para sumir como o elemento ou o conteúdo)
+    - id (Serve para cada página e não deve ser repetido para não gerar conflitos nas importações do css)
+    - style (Serve para dar style para os atributos dentro do HTML)
+    - tabindex (Serve para gerar index que serve para gerar acessibilidade no tab )
+    - title (Serve para definir um titulo para o atributos)
+-->
+
+<div class="Carrinho" contenteditable="true"  id="Carrinho1" style="color: red">
+    Conteúdo
+</div>
+
+<div class="carrinho" data-qualque-coisa-aqui="test" id="carrinho2">
+    conteudo 
+</div>
+
+<div class="carrinho" hidden>
+    conteudo
+</div>
+
+    <!--Tabindex serve para gerar index nos atributos gerando mais acessibilidade 
+    ao apertar o tab, pessoas que nao utilizam o mouse ou que tenham deficiência visual.
+    -->
+<div tabindex="1">
+    conteudo
+</div>
+
+<div tabindex="2" title="Nomear o atributo html">
+    conteudo
+</div>
+
+<div tabindex="3">
+    conteudo
+</div>
